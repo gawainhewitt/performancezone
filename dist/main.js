@@ -38,7 +38,7 @@ let playbuttonPosition;
 
 function preload(){
     chooseSample();
-    hallImage = loadImage("/images/performanceZone7.png", () => {imageLoaded = true});
+    hallImage = loadImage("/images/performanceZone7_small.png", () => {imageLoaded = true});
 }
 
 function setup() {  // setup p5
@@ -95,7 +95,7 @@ function draw() {
     let picHeight = picWidth/1.5;
     let picX = width/2;
     let picY = (height/6) * 4.73;
-    let visWidth = width/2.27;
+    let visWidth = width/2.26;
     let x = (width/2) - visWidth/2;
     let y = (height/12) * 7.68;
     background(backgroundColour); // background
